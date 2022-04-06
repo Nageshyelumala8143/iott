@@ -1,0 +1,256 @@
+@media (min-width: 200px) and (max-width: 599px) {
+  .carouselContainer {
+    margin-top: 56px !important;
+  }
+}
+.carouselImages {
+  width: 100%;
+}
+
+.carouselDiv {
+  text-align: center;
+}
+
+/* .highlyRatedContainer {
+  padding: 25px !important;
+} */
+
+.highlyRatedDiv {
+  text-align: left !important;
+  padding: 25px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+
+}
+
+.highlyRatedslider {
+  padding: 5px !important;
+  cursor: pointer !important;
+}
+.highlyRatedcarouselImages {
+  border-radius: 50% !important;
+}
+.GenereImages {
+  border-radius: 4% !important;
+  height: auto;
+}
+.actionContainer {
+  padding: 5px !important;
+}
+
+.actionDiv {
+  text-align: left !important;
+}
+
+.actionslider {
+  padding: 5px !important;
+}
+.actioncarouselImages {
+  padding: 5px !important;
+  width: -webkit-fill-available;
+  border-radius: 25px;
+  height: 12rem;
+}
+.languageContainer {
+  padding: 5px !important;
+}
+
+.languageDiv {
+  text-align: left !important;
+}
+
+.languageslider {
+  padding: 5px !important;
+}
+.languagecarouselImages {
+  padding: 5px !important;
+  width: -webkit-fill-available;
+  border-radius: 25px;
+  height: 12rem;
+}
+
+.all-languages-list {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+/* .GenereImages { */
+
+  /* height: 225px !important; */
+ 
+/* } */
+.highlyRatedcarouselImages {
+  border-radius: 50% !important;
+  
+}
+
+.carouselImage{
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button:before {
+  color:khaki !important;
+}
+.slick-dots li button:before {
+  color:rgba(240, 230, 140, 0.418) !important;
+  opacity: 1 !important;
+}
+
+video::-webkit-media-controls-play-button {
+
+  display: none !important;
+
+}
+video::-internal-media-controls-overflow-button {
+
+  display: none !important;
+
+}
+.MuiGrid-root.movie-cardone.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-12 {
+  display: contents;
+}
+
+ .onhover{
+  opacity: 0;
+  position: relative;
+  background-color: #484848a6;
+  color: #fff;
+  width: 283px;
+  height: 70px;
+  padding: 5px;
+  top: -68px;
+}
+
+img.highlyRatedMovies:hover+.onhover {
+  opacity: 1;
+}
+.onhover:hover {
+  opacity: 1;
+}
+
+.onhover p {
+  font-size: 10px;
+  line-height: 13px;
+  width: 70%;
+  text-align: justify;
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+}
+.onhover-text {
+  display: inline-flex;
+}
+.playicon {
+  position: relative;
+  left: 50px;
+  font-size: 42px !important;
+  color: #fff;
+}
+img.highlyRatedMovies {
+  border-radius: 15px;
+  cursor: pointer !important;
+}
+
+
+.onhoverone{
+  opacity: 0;
+  position: relative;
+    background-color: #484848a6;
+    color: #fff;
+    width: 283px;
+    height: 70px;
+    padding: 5px;
+    top: -68px;
+}
+img.highlyRatedMovies:hover+.onhoverone {
+  opacity: 1;
+}
+.onhoverone:hover {
+  opacity: 1;
+}
+
+.onhoverone p {
+  font-size: 10px;
+  line-height: 13px;
+  width: 70%;
+  text-align: justify;
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+}
+.onhover-textone {
+  display: inline-flex;
+} 
+
+
+svg.MuiSvgIcon-root.play-icon-cursol{
+  font-size: 100px;
+  position: relative;
+  top: -200px;
+  left: 41%;
+  color: #fac864;
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+  svg.MuiSvgIcon-root.play-icon-cursol {
+    font-size: 37px;
+    position: relative;
+    top: -57px;
+    left: 38%;
+    color: #fac864;
+}
+h4.main-title {
+  font-size: 18px;
+}
+a.iq-view-all {
+  font-size: 18px;
+}
+
+}
+@media only screen and (min-width: 401px) and (max-width: 767px){
+  svg.MuiSvgIcon-root.play-icon-cursol {
+    font-size: 41px;
+    position: relative;
+    top: -68px;
+    left: 38%;
+    color: #fac864;
+}
+h4.main-title {
+  font-size: 20px;
+}
+a.iq-view-all {
+  font-size: 20px;
+}
+
+}
+
+.MuiGrid-root.LanguageContainer {
+  margin-bottom: 55px;
+}
+.highlyRatedDiv.languagelist {
+  margin-bottom: 55px;
+  margin-top: 50px;
+}
+
+.highlyRatedDiv.languagelist img.highlyRatedcarouselImages {
+  max-width: 89%;
+}
+span.freeTag {
+  position: absolute;
+  right: 0;
+}
+span.freeTag img {
+  width: 247px;
+}.menu-main-menu-container {
+  margin-top: -59px;
+}
+
+.right-icon {
+  margin-top: -60px;
+}

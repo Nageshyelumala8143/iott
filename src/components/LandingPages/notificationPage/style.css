@@ -1,0 +1,16 @@
+.notification-container{
+    display: contents;
+}
+.notification-sub-container{
+    display: contents;
+}
+.notification-days{
+    float: right;
+    margin-top: 144px !important;
+}
+.notification-main-grid{
+    padding: 40px;
+}
+.notification-text{
+    font-size: 30px !important;
+}

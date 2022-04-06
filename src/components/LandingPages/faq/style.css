@@ -1,0 +1,90 @@
+h4.faq-top-text {
+    font-size: 40px;
+    margin-top: 97px;
+}
+h4.faq-top-text span {
+    font-size: 68px;
+    font-weight: bold;
+}
+.faq-title{
+    color: khaki;
+}
+.faq-border {
+    border-right: 1px solid #fff;
+}
+.faq-accordian{
+  width: 85%;
+  background-color: #010313 !important;
+  color: #fff !important;
+  border:2px solid #fff;
+  border-radius: 40px !important;
+  margin-bottom: 10px;
+}
+
+.faq-more-less {
+    margin-left: 500px;
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+input.MuiInputBase-input.makeStyles-inputInput-7 {
+    color: #000 !important;
+    background-color: khaki;
+    width: 100%;
+    border: none;
+    border-radius: 35px;
+}
+.MuiInputBase-root.makeStyles-inputRoot-6 {
+    width: 90%;
+}
+.makeStyles-search-4 {
+    background-color: khaki !important; 
+    border-radius: 50px !important;
+}
+
+h2.faq-question1 {
+    font-size: 34px;
+    color: khaki;
+    float: left;
+    margin-top: 90px;
+    margin-left: 95px;
+}
+
+textarea.faq-text {
+    height: 300px !important;
+    width: 660px;
+    text-align: center;
+    border-radius: 23px;
+    background-color: #c5c5c5;
+    color: #eae8e8dd;
+}
+.faq-buttonsubmit {
+    background-color: khaki !important;
+    margin-top: 12px !important;
+    border-radius: 13px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    cursor: pointer !important;
+}
+
+@media (max-width: 768px){
+    .faq-more-less {
+        margin-left: 250px;
+       
+    }
+    textarea.faq-text {
+        width: -webkit-fill-available;
+    }
+    .faq-border {
+        border-right: none;
+    }
+    .faq-accordian {
+        width: 100%;
+    }
+}
+input.MuiInputBase-input.makeStyles-inputInput-7::placeholder {
+    color: #000 !important;
+}
+.faq1 {
+    font-weight: bold;
+}

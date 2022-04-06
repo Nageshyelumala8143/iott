@@ -1,0 +1,23 @@
+.about-us {
+    cursor: pointer;
+}
+.faq{
+    cursor: pointer;
+}
+.privacy{
+    cursor: pointer;
+}
+.terms{
+    cursor: pointer; 
+}
+.feedback{
+    cursor: pointer;  
+}
+/* #contact{
+    background-image: url('../../../public/images/footer/footer-background1.png');
+    background-size: cover;
+} */
+.footer-top{
+    background-image: url('../../../public/images/footer/footer-background.png');
+    background-size: cover;
+}

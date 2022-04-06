@@ -1,0 +1,746 @@
+.padd {
+  padding: 30px;
+}
+
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: #121734;
+}
+.highlyRatedDetailsDialog {
+  color: #fff;
+  background-color: #121734;
+}
+
+.highlyRatedDetailsList {
+  background-color: #121734;
+  color: #fff;
+}
+
+.highlyRatedvideo {
+  width: 100%;
+  height: 100%;
+}
+.controlsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  background-color: transparent;
+  margin-top: -50vw;
+  padding: 0 0px;
+  z-index: 20;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding-top: 18rem; */
+  margin: auto;
+  position: relative;
+  top: 389px;
+}
+
+.controlsIcon {
+  width: 74px;
+  height: 80px;
+  cursor: pointer;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.controlsIconsmall {
+  width: 74px;
+  height: 80px;
+  cursor: pointer;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+/* The time controls section */
+
+.timecontrols {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 4rem;
+  margin-left: 0vw;
+}
+
+.time_progressbarContainer {
+  background-color: gray;
+  border-radius: 15px;
+  width: 65vw;
+  height: 5px;
+  z-index: 30;
+  position: relative;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.time_progressBar {
+  border-radius: 15px;
+  background-color: indigo;
+  height: 100%;
+}
+
+.controlsTime {
+  color: white;
+}
+.highlyRatedGridContainer {
+  display: flex;
+}
+
+/*****************************************/
+
+.icon-replay {
+  font-size: 60px !important;
+}
+.tile-main {
+  display: contents;
+}
+.collection {
+  width: 12%;
+}
+img.collection {
+  cursor: pointer;
+}
+.main-grid {
+  padding-top: 27px;
+  padding-bottom: 30px;
+}
+.description-main {
+  text-align: initial;
+  margin-top: 45px;
+}
+.description-para {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Quicksand";
+}
+.crew {
+  text-align: initial;
+  margin-top: 30px;
+}
+.crew-images1 {
+  margin-right: 15px;
+}
+.crew-images2 {
+  margin-right: 15px;
+}
+.crew-images3 {
+  margin-right: 15px;
+}
+.crew-images4 {
+  margin-right: 15px;
+}
+.crew-images5 {
+  margin-right: 15px;
+}
+.crew-images {
+  display: contents;
+}
+.crew-main {
+  margin-bottom: 22px;
+}
+.crew-images1 p {
+  text-align: center;
+}
+.crew-images2 p {
+  text-align: center;
+}
+.crew-images3 p {
+  text-align: center;
+}
+.crew-images4 p {
+  text-align: center;
+}
+.crew-images5 p {
+  text-align: center;
+}
+.crew-images img {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .icon {
+    font-size: 15px;
+  }
+  .collection {
+    margin-top: 5px;
+    width: 15%;
+  }
+  .last-grid h5 {
+    font-size: 15px;
+  }
+  .description-main {
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 10px;
+  }
+  .crew {
+    margin-left: 10px;
+  }
+  .icon-replay {
+    font-size: 28px !important;
+  }
+}
+
+.playButtons {
+  width: 65px !important;
+  margin-top: -125vh;
+}
+
+.farwordImage {
+  margin-top: -125vh !important;
+  float: right;
+  right: 260px;
+}
+
+.backwardImage {
+  margin-top: -125vh !important;
+  float: left;
+  left: 260px;
+}
+
+.video {
+  width: 100%;
+  /* height: 100vh; */
+}
+.video-container1 {
+  width: -webkit-fill-available;
+  margin-top: -52px;
+}
+
+/* Controls */
+
+.controlsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-color: transparent;
+  margin-top: -50vw;
+  padding: 0 40px;
+  z-index: 20;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding-top: 18rem; */
+  margin: auto;
+  z-index: 999;
+  opacity: 0;
+}
+
+.controlsIcon {
+  width: 74px;
+  height: 80px;
+  cursor: pointer;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.controlsIconsmall {
+  width: 74px;
+  height: 80px;
+  cursor: pointer;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+/* The time controls section */
+
+.timecontrols {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0rem;
+  margin-left: 3vw;
+}
+
+.time_progressbarContainer {
+  background-color: gray;
+  border-radius: 15px;
+  width: 75vw;
+  height: 5px;
+  z-index: 30;
+  position: relative;
+  margin: 0 20px;
+}
+
+.time_progressBar {
+  border-radius: 15px;
+  background-color: khaki;
+  height: 100%;
+}
+
+.controlsTime {
+  color: white;
+}
+
+.player {
+  display: inline-flex !important;
+}
+
+.video-container1:hover .controls {
+  opacity: 1 !important;
+}
+
+.video-container1:hover #main-header {
+  opacity: 0 !important;
+}
+
+.video-container1:hover .quality {
+  opacity: 1 !important;
+}
+.quality{
+  opacity: 0;
+}
+.volume-progress
+{
+  opacity: 0;
+}
+.video-container1:hover .volume-progress {
+  opacity: 1 !important;
+}
+.timecontrols
+{
+  opacity: 0;
+}
+.video-container1:hover .timecontrols {
+  opacity: 1 !important;
+}
+
+/* .player__slider {
+  width: 367px !important;
+  height: 30px;
+  margin-top: 60px;
+} */
+
+.player__slider {
+  background: khaki !important;
+  border-radius: 8px;
+  height: 15px;
+  width: 150px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+  transform: rotate(270deg) !important;
+  padding: 0px !important;
+  position: relative;
+  bottom: 56px;
+  float: right;
+  opacity: 0;
+}
+
+.volume-progress {
+  position: relative;
+  /* right: 0; */
+  float: right;
+  bottom: 94px;
+  right: -10px;
+}
+
+.quality {
+  background-color: khaki !important;
+  float: right;
+  bottom: 73px;
+  z-index: 999;
+  right: 22px;
+
+}
+
+.volumeIcons {
+  cursor: pointer;
+  z-index: 999;
+}
+
+input#player_slider:hover {
+  opacity: 1 !important;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background-color: green;
+}
+.crew-images1 {
+  margin-left: 36px !important;
+}
+
+p.charactor {
+  font-size: 20px;
+  /* position: absolute; */
+}
+p.role {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-header {
+    padding: 0px 0;
+    height: 69px;
+}
+  span.loginWatch {
+    background-color: khaki;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 95px !important;
+    left: 16% !important;
+    padding: 7px !important;
+    width: 290px !important;
+    font-weight: 800;
+    font-size: 12px !important;
+}
+  .vedio{
+    height: 100% !important;
+  }
+  .volume-progress {
+    display: none;
+}
+p.controlsTime {
+  margin-bottom: 0px;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 359px){
+  .timecontrols {
+      bottom: 1rem;
+      margin-left: 0vw;
+  }
+  .quality {
+    bottom: 30px;
+    right: 0px;
+}
+  p.controlsTime {
+      font-size: 12px;
+  }
+  .MuiGrid-root.main.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-12 {
+      margin-top: 78px;
+  }
+  .controls {
+      top: 100px;
+  }
+  .controlsIconsmall {
+     
+      margin-left: 4rem;
+      margin-right: 4rem;
+  }
+  .controlsIcon {
+     
+      margin-left: 0rem;
+      margin-right: 0rem;
+  }
+  video#video1 {
+    height: 100%;
+}
+img.controlsIcon {
+  width: 20px;
+  height: 20px;
+}
+img.controlsIconsmall{
+  width: 20px;
+  height: 20px;
+
+}
+.timecontrols {
+  position: relative;
+}
+
+  }
+
+  @media only screen and (min-width: 360px) and (max-width: 500px){
+    span.freeTag-details {
+      width: 107px !important;
+      position: absolute;
+      right: 5px;
+      /* top: 29%; */
+      bottom: 60% !important;
+  }
+    .quality {
+      bottom: 34px;
+      right: 0px;
+  }
+    .timecontrols {
+      position: relative;
+        bottom: 1rem;
+        margin-left: 0vw;
+    }
+    
+    p.controlsTime {
+        font-size: 12px;
+    }
+    .MuiGrid-root.main.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-12 {
+        margin-top: 78px;
+    }
+    .controls {
+        top: 100px;
+    }
+    .controlsIconsmall {
+       
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .controlsIcon {
+       
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    video#video1 {
+      height: 100%;
+  }
+  .video-container1 {
+    margin-top: -82px !important;
+}
+  img.controlsIcon {
+    width: 20px;
+    height: 20px;
+  }
+  img.controlsIconsmall{
+    width: 20px;
+    height: 20px;
+  
+  }
+    }
+
+    @media only screen and (min-width: 501px) and (max-width: 767px){
+      .timecontrols {
+        position: relative;
+          bottom: 2rem;
+          margin-left: 0vw;
+      }
+      .quality {
+       
+        bottom: 49px;
+       
+        right: -3px;
+    }
+      p.controlsTime {
+          font-size: 12px;
+      }
+      .MuiGrid-root.main.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-12 {
+          margin-top: 78px;
+      }
+      .controls {
+          top: 150px;
+      }
+      .controlsIconsmall {
+         
+          margin-left: 4rem;
+          margin-right: 4rem;
+      }
+      .controlsIcon {
+         
+          margin-left: 0rem;
+          margin-right: 0rem;
+      }
+      video#video1 {
+        height: 100%;
+    }
+    img.controlsIcon {
+      width: 30px;
+      height: 30px;
+    }
+    img.controlsIconsmall{
+      width: 25px;
+      height: 25px;
+    
+    }
+    .icon-replay {
+      font-size: 35px !important;
+  }
+  .name.icon h3 {
+    font-size: 38px;
+}
+h5.start-over {
+  font-size: 25px;
+}
+h5.addtocollection {
+font-size: 25px;
+}
+      }
+      span.freeTag-details {
+        width: 151px ;
+        position: absolute;
+        right: 5px ;
+        bottom: 1%;
+    }
+      @media only screen and (min-width: 768px) and (max-width: 1000px){
+        span.freeTag-details {
+          width: 107px !important;
+          position: absolute;
+          right: 5px;
+          /* top: 33% !important; */
+          bottom: 60% !important;
+      }
+        span.loginWatch {
+          background-color: khaki;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          position: absolute;
+          top: 95px !important;
+          left: 16% !important;
+          padding: 7px !important;
+          width: 290px !important;
+          font-weight: 800;
+          font-size: 12px !important;
+      }
+        .icon-replay {
+          font-size: 35px !important;
+      }
+      .name.icon h3 {
+        font-size: 38px;
+    }
+    h5.start-over {
+      font-size: 25px;
+  }
+  h5.addtocollection {
+    font-size: 25px;
+}
+        .timecontrols {
+          position: relative;
+            bottom: 2rem;
+            margin-left: 0vw;
+        }
+        .quality {
+         
+          bottom: 49px;
+         
+          right: -3px;
+      }
+        p.controlsTime {
+            font-size: 12px;
+        }
+        .MuiGrid-root.main.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-12 {
+            margin-top: 78px;
+        }
+        .controls {
+            top: 150px;
+        }
+        .controlsIconsmall {
+           
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }
+        .controlsIcon {
+           
+            margin-left: 0rem;
+            margin-right: 0rem;
+        }
+        video#video1 {
+          height: 100%;
+      }
+      img.controlsIcon {
+        width: 30px;
+        height: 30px;
+      }
+      img.controlsIconsmall{
+        width: 25px;
+        height: 25px;
+      
+      }
+      .volume-progress {
+        bottom: 148px;
+        right: -106px;
+    }
+        }
+        @media only screen and (min-width: 1001px) and (max-width: 1399px){
+          .timecontrols {
+            position: relative;
+              bottom: 2rem;
+              margin-left: 0vw;
+          }
+          .quality {
+           
+            bottom: 49px;
+           
+            right: -3px;
+        }
+          p.controlsTime {
+              font-size: 12px;
+          }
+          .MuiGrid-root.main.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-12 {
+              margin-top: 78px;
+          }
+          .controls {
+              top: 200px;
+          }
+          .controlsIconsmall {
+             
+              margin-left: 4rem;
+              margin-right: 4rem;
+          }
+          .controlsIcon {
+             
+              margin-left: 0rem;
+              margin-right: 0rem;
+          }
+          video#video1 {
+            height: 100%;
+        }
+        img.controlsIcon {
+          width: 30px;
+          height: 30px;
+        }
+        img.controlsIconsmall{
+          width: 25px;
+          height: 25px;
+        
+        }
+        .volume-progress {
+          bottom: 148px;
+          right: -106px;
+      }
+          }
+      .name span {
+            font-size: 17px;
+            min-inline-size: fit-content;
+            padding: 2px;
+        }
+       button.button-bg {
+          background-color: khaki;
+          border-radius: 19px;
+          margin-left: 23px;
+      }
+      button.button-bg:hover {
+        zoom: initial;
+        padding: 4px;
+        background-color: khaki;
+        box-shadow: 1px 1px 1px 1px #ddd;
+    }
+
+    .backArrow
+    {
+      position: absolute;
+      left: 10px;
+      cursor: pointer;
+    }
+
+    span.loginWatch {
+      background-color: khaki;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      padding: 18px;
+      width: 400px;
+      font-weight: 800;
+      font-size: 25px;
+      color: #000;
+      border-radius: 30px;
+      box-shadow: 1px 1px 1px 1px #817777;
+  }
+  span.loginWatch:hover {
+    transition: 0s;
+    padding: 12px;
+    box-shadow: 1px 1px 1px 1px khaki;
+}

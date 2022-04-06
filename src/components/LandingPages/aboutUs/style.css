@@ -1,0 +1,54 @@
+.aboutsUsContainer {
+    padding: 100px 0 50px;
+}
+img.img-fluid.logo.aboutus {
+    width: 280px;
+}
+h4.about-top-text {
+    font-size: xx-large;
+     margin-top: 106px; 
+}
+.aboutus-content {
+    background-color: #010113;
+    padding: 46px;
+}
+.aboutus-content h5 {
+    text-align: initial;
+    padding-bottom: 10px;
+}
+.aboutus-content p {
+    font-size: 22px;
+    text-align: justify;
+    line-height: 36px;
+}
+.main-about {
+    display: contents;
+    margin-bottom: 35px;
+}
+/* .abouts-top {
+    margin-bottom: 35px;
+} */
+
+.main-gridabout {
+    margin-bottom: 30px !important;
+}
+
+
+@media (max-width: 768px){
+    h4.about-top-text {
+        padding-left: 16px;
+        padding-right: 16px;
+         margin-top: 30px; 
+    }
+}
+.about-content {
+    display: contents;
+}
+
+.about-title{
+    color:khaki;
+}
+
+p.aboutdescription {
+    text-align: justify !important;
+}

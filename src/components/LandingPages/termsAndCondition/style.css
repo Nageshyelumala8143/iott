@@ -1,0 +1,13 @@
+.termsContainer{
+    padding: 100px 0 50px;
+}
+h4.terms-top-text {
+    margin-top: 106px;
+    text-align: justify;
+    font-size: 50px;
+    font-family: 'Quicksand';
+    font-weight: 900;
+}
+p.termsdescription {
+    text-align: justify;
+}

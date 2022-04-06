@@ -1,0 +1,8 @@
+.mainContainer {
+    margin-top: 64px !important;
+  }
+  @media (min-width: 200px) and (max-width: 599px) {
+    .mainContainer {
+      margin-top: 56px !important;
+    }
+  }
